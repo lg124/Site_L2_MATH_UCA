@@ -1,0 +1,17 @@
+{ 
+    "cours": [
+        {
+            "nom": "Structure Algébrique I et II",
+            "nom_fichier": "cours_pdf\\cours_structure_algébrique.pdf",
+            "text": "Voici le cours de Structure Algébrique I et II tapé par ****"
+        },
+        {
+            "nom": "Complément d'Algèbre Linéaire",
+            "nom_fichier": "cours_pdf\\cours_CAL.pdf",
+            "text": "Voici le cours de Complément d'Algèbre Linéaire tapé par ****" 
+        }
+    ],
+    "exercices": [
+
+    ]
+}

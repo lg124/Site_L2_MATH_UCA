@@ -18,6 +18,27 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     };
 
+    const getDataFromFile = () => {
+        console.log("data fetch");
+        fetch("ressources\\data.json")
+        .then((res) => res.text())
+        .then((text) => {
+            data = JSON.parse(text);
+            displayDataCours(data.cours);
+        })
+        .catch((e) => console.error(e));
+    };
+
+    function displayDataCours(data){
+        var dataList = document.getElementById("container-cours");
+        dataList.innerHTML = "";
+        data.forEach((object) => {
+          const dataDiv = document.createElement("div");
+          dataDiv.className= "box";
+          dataDiv.innerHTML = `<div class="box_text"><strong>${object.nom}</strong><a href="html/pdf_show.html?pdf=${object.nom_fichier}" id="a">Lien PDF</a><p2>${object.text}</p2></div>`;
+          dataList.appendChild(dataDiv);
+        });
+    }
     // Ajuster le défilement pour prendre en compte la hauteur du header fixe
     menuLinks.forEach((link) => {
         link.addEventListener('click', (event) => {
@@ -39,6 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Ajouter un événement de défilement pour afficher les sections
     window.addEventListener('scroll', checkVisibility);
 
+    getDataFromFile();
     // Vérifier la visibilité au chargement initial
     checkVisibility();
 });
