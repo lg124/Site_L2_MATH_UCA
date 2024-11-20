@@ -20,11 +20,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const getDataFromFile = () => {
         console.log("data fetch");
-        fetch("ressources\\data.json")
+        fetch("..\\ressources\\data_archives.json")
         .then((res) => res.text())
         .then((text) => {
             data = JSON.parse(text);
             displayDataCours(data.cours);
+            displayDataExos(data.exercices);
         })
         .catch((e) => console.error(e));
     };
@@ -39,6 +40,18 @@ document.addEventListener("DOMContentLoaded", () => {
           dataList.appendChild(dataDiv);
         });
     }
+
+    function displayDataExos(data){
+        var dataList = document.getElementById("container-exos");
+        dataList.innerHTML = "";
+        data.forEach((object) => {
+          const dataDiv = document.createElement("div");
+          dataDiv.className= "box";
+          dataDiv.innerHTML = `<div class="box_text"><strong>${object.nom}</strong><a href="html/pdf_show.html?pdf=${object.nom_fichier}" id="a">Sujet</a><a href="html/pdf_show.html?pdf=${object.nom_correction}" id="a">Correction</a><p2>${object.text}</p2></div>`;
+          dataList.appendChild(dataDiv);
+        });
+    }
+
     // Ajuster le défilement pour prendre en compte la hauteur du header fixe
     menuLinks.forEach((link) => {
         link.addEventListener('click', (event) => {

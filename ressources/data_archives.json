@@ -1,0 +1,16 @@
+{   "cours": [
+        {
+            "nom": "Ancien Cours Structures",
+            "nom_fichier": "",
+            "text": "Voici l'ancien cours de Structure Algébrique "
+        }
+    ],
+    "exercices":[
+        {
+            "nom": "Sujet Partiel CAL 2023-2024",
+            "nom_fichier": "exercices_pdf\\sujet_CAL_23_24.pdf",
+            "nom_correction": "exercices_pdf\\sujet_corr_CAL_23_24.pdf",
+            "text": "Voici le sujet de partiel de CAL de 2023-2024"
+        }
+    ]
+}
