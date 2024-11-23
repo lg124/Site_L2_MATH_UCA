@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         data.forEach((object) => {
           const dataDiv = document.createElement("div");
           dataDiv.className= "box";
-          dataDiv.innerHTML = `<div class="box_text"><strong>${object.nom}</strong><a href="html/pdf_show.html?pdf=${object.nom_fichier}" id="a">Lien PDF</a><p2>${object.text}</p2></div>`;
+          dataDiv.innerHTML = `<div class="box_text"><strong>${object.nom}</strong><a href="pdf_show.html?pdf=${object.nom_fichier}" id="a">Lien PDF</a><p2>${object.text}</p2></div>`;
           dataList.appendChild(dataDiv);
         });
     }
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
         data.forEach((object) => {
           const dataDiv = document.createElement("div");
           dataDiv.className= "box";
-          dataDiv.innerHTML = `<div class="box_text"><strong>${object.nom}</strong><a href="html/pdf_show.html?pdf=${object.nom_fichier}" id="a">Sujet</a><a href="html/pdf_show.html?pdf=${object.nom_correction}" id="a">Correction</a><p2>${object.text}</p2></div>`;
+          dataDiv.innerHTML = `<div class="box_text"><strong>${object.nom}</strong><a href="pdf_show.html?pdf=${object.nom_fichier}" id="a">Sujet</a><a href="pdf_show.html?pdf=${object.nom_correction}" id="a">Correction</a><p2>${object.text}</p2></div>`;
           dataList.appendChild(dataDiv);
         });
     }
