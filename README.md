@@ -11,7 +11,7 @@ Vous avez tapé un cours ou un TD? Vous diposez sous forme PDF d'un document don
 
 Si vous disposez d'un document, utile aux élèves de la L2 (Sujets, Corrections, Cours simplifés, Méthodes, Exos etc): vous êtes au bon endroit! 
 
-**Nous n'acceptons, pour l'instant, seulement les documents au format PDF (de préférence tapé en LATEX).**
+**Nous n'acceptons, pour l'instant, seulement les documents au format PDF (de préférence tapés en LATEX).**
 
 ## Architecture des fichiers 
 
