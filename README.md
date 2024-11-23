@@ -18,10 +18,10 @@ Si vous disposez d'un document, utile aux élèves de la L2 (Sujets, Corrections
 Les Fichiers sont rangés dans des dossiers puis fichiers puis sous une forme bien précise que vous vous devez de respecter. Ils se trouvent tous dans le dossier *ressources*. 
 
 D'abord, ils sont rangés par type:
-- "cours_pdf": ici, vous pouvez ajouter des cours que vous avez tapés, des méthodes utiles dans certaines matières (avec les sources si vous en êtes pas à l'origine).
-- "exercices_pdf": ce fichier contient tous les PDF relatif aux exercices. On y trouve donc des sujets de partiel, des sujets de TD et leur correction respectives. 
-- "memes_pdf": je pense qu'il y a de quoi faire des choses marrantes, la partie du site correspondate n'est pas encore exactement codé mais si il y a des gens motivés pour faire des memes ou des blagues marrantes sur les cours, je serai ravi d'avancer la dessus et de les rendre accessibles sur le site
-- "autres_pdf": pour tout les fichiers qui ne rentrent dans aucun des catégories si dessus. **En particulier**, si vous avez écrit un document en LATEX et que vous souhaitez que tout le monde puisse le modifier pour y corriger des erreurs éventuels ou y rajouter des parties, je vous invite à ajouter le fichier .tex associé à votre PDF dans ce dossier en suivant la convention de nommage suivante. 
+- *cours_pdf*: ici, vous pouvez ajouter des cours que vous avez tapés, des méthodes utiles dans certaines matières (avec les sources si vous en êtes pas à l'origine).
+- *exercices_pdf*: ce fichier contient tous les PDF relatif aux exercices. On y trouve donc des sujets de partiel, des sujets de TD et leur correction respectives. 
+- *memes_pdf*: je pense qu'il y a de quoi faire des choses marrantes, la partie du site correspondate n'est pas encore exactement codé mais si il y a des gens motivés pour faire des memes ou des blagues marrantes sur les cours, je serai ravi d'avancer la dessus et de les rendre accessibles sur le site
+- *autres_pdf*: pour tout les fichiers qui ne rentrent dans aucun des catégories si dessus. **En particulier**, si vous avez écrit un document en LATEX et que vous souhaitez que tout le monde puisse le modifier pour y corriger des erreurs éventuels ou y rajouter des parties, je vous invite à ajouter le fichier .tex associé à votre PDF dans ce dossier en suivant la convention de nommage suivante. 
 
 Ensuite, afin de gérer l'affichage, il faut rentrer les informations des documents dans un fichir .JSON. 
 Dans le dossier ressource, il suffira de modifier le fichier *data.json* si les informations date de l'année en cours, et  *data_archives.json* sinon.
@@ -46,7 +46,7 @@ Vous devez placer votre fichier dans "exercices_pdf" le nommer comme détaillé 
 }
 ```
 
-En n'oubliant pas l'ajout d'une virgule au bloc précédent. 
+En n'oubliant pas l'ajout d'une virgule au bloc précédent. Merci par ailleurs de ne pas modifier le fichier au milieu, mais d'ajouter les blocs de code, les uns à la suite des autre, afin d'en conserver la cohérence.
 
 
 ## Convention de nommage
@@ -55,8 +55,8 @@ Les fichiers doivent contenir les informations suivantes:
 
 - Type de Fichier (Cours, Correction, exercice etc)
 - Numéro *si pertinent* (Si il y a plusieurs sujet sur un partiel, il convient d'y ajouter un numéro adéquat par rapport aux autres fichier déjà présents)
-- La Date (si c'est un partiel de cette année, ce sera 2024-2025, si c'était de l'année dernière 2023-2024 etc)
-- Le Nom (CAL, Analyse, Méthodes pour les intégrales généralisés etc)
+- La date (si c'est un partiel de cette année, ce sera 2024-2025, si c'était de l'année dernière 2023-2024 etc)
+- Le nom (CAL, Analyse, Méthodes pour les intégrales généralisés etc)
 
 ### Exemple 
 Pour un sujet de partiel de CAL de l'année dernière dont vous avez tapé la correction en LATEX, vous pouvez utiliser la covention de nommage suivante:
