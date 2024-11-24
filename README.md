@@ -81,6 +81,8 @@ Vous pouvez cloner le repo git, faire les modifications sur votre branche local 
 
 Si vous souhaitez ajouter des modifications substentielles au site, je vous conseil de m'en informer à l'avance (afin d'eviter de travailler longement sur une feature qui pourrait ne pas être acceptée) et d'utiliser un fork puis de faire un Pull Request ensuite. 
 
+## Licence
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
 ## Contacts et Contribution
 
