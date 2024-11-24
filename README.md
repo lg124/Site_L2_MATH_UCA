@@ -30,7 +30,7 @@ Dans le dossier ressource, il suffira de modifier le fichier *data.json* si les 
 
 Vous devrez remplir, dans la partie adéquate (suivant la même architecture que les fichiers vus plus haut) les infomations suivantes:
 - "nom": Le nom du document (Par exemple "Cours de CAL 2024-2025")
-- "nom_fichier": le nom de votre fichier .pdf suivant la convention de nommage détaillée dans le paragraphe suivant et précédé de "//" puis du nom du dossier dans lequel le fichier se trouve
+- "nom_fichier": le nom de votre fichier .pdf suivant la convention de nommage détaillée dans le paragraphe suivant et précédé de "\\" puis du nom du dossier dans lequel le fichier se trouve
 - "nom_correction": *si pertinent* (si c'est quelque chose dont vous disposez de la correction, comme un sujet ou un TD)
 - "text": une description plus précise (mais brève) du document en question (elle doit contenir l'auteur du document)
 
