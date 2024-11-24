@@ -75,11 +75,11 @@ Voici une courte explication [Lien](https://docs.github.com/fr/pull-requests/col
 ### Pour les changement mineurs
 
 Pour des changements comme l'ajout d'un PDF, ou un correction de syntaxe ou d'orthographe, vous pouvez utiliser la méthode suivante.
-Vous pouvez cloner le repo git, faire les modifications sur votre branche local et ensuite faire un Pull Request sur la branche test ou main. Merci d'utiliser un Pull Request par demande. Si vous avez 2 sujet de CAL avec 2 Correction, merci de séparer les deux sujets dans deux Pull Request différents. 
+Vous pouvez fork le repo git, faire les modifications sur votre branche local et ensuite faire un Pull Request sur la branche main. Merci d'utiliser un Pull Request par demande. Si vous avez 2 sujet de CAL avec 2 Correction, merci de séparer les deux sujets dans deux Pull Request différents. 
 
 ### Pour les changements majeurs 
 
-Si vous souhaitez ajouter des modifications substentielles au site, je vous conseil de m'en informer à l'avance (afin d'eviter de travailler longement sur une feature qui pourrait ne pas être acceptée) et d'utiliser un fork puis de faire un Pull Request ensuite. 
+Si vous souhaitez ajouter des modifications substentielles au site, je vous conseil de m'en informer à l'avance (afin d'eviter de travailler longement sur une feature qui pourrait ne pas être acceptée) et d'utiliser un fork puis de faire un Pull Request ensuite. En cas de besoin, vous pouvez faire le pull request sur la branch test si les changements risquent de rendre de github-pages malfonctionant.
 
 ## Licence
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
