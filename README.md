@@ -84,6 +84,6 @@ Si vous souhaitez ajouter des modifications substentielles au site, je vous cons
 ## Licence
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
-## Contacts et Contribution
+## Contacts et Contributeurs
 
 Si vous avez des questions, des remarques ou que vous ne parvenez pas à ajouter les documents dans ce repo git, merci de me contacter par mail : gabriel.legout9@gmail.com 
