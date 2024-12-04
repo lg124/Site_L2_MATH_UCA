@@ -3,7 +3,7 @@
 
 Un site (non-officel) pour regrouper les cours non officiels, se questionner sur l'aspect mesurable du cours de CAL et sur l'unicité du cours de structure algébrique
 
-Par les élèves, pour les élèves (mais payé en cacahuètes)
+Par les élèves, pour les élèves (mais payé en cacahuètes).
 
 # CONTRIBUER
 
@@ -30,7 +30,7 @@ Dans le dossier ressource, il suffira de modifier le fichier *data.json* si les 
 
 Vous devrez remplir, dans la partie adéquate (suivant la même architecture que les fichiers vus plus haut) les infomations suivantes:
 - "nom": Le nom du document (Par exemple "Cours de CAL 2024-2025")
-- "nom_fichier": le nom de votre fichier .pdf suivant la convention de nommage détaillée dans le paragraphe suivant et précédé de "//" puis du nom du dossier dans lequel le fichier se trouve
+- "nom_fichier": le nom de votre fichier .pdf suivant la convention de nommage détaillée dans le paragraphe suivant et précédé de "\\" puis du nom du dossier dans lequel le fichier se trouve
 - "nom_correction": *si pertinent* (si c'est quelque chose dont vous disposez de la correction, comme un sujet ou un TD)
 - "text": une description plus précise (mais brève) du document en question (elle doit contenir l'auteur du document)
 
@@ -75,13 +75,15 @@ Voici une courte explication [Lien](https://docs.github.com/fr/pull-requests/col
 ### Pour les changement mineurs
 
 Pour des changements comme l'ajout d'un PDF, ou un correction de syntaxe ou d'orthographe, vous pouvez utiliser la méthode suivante.
-Vous pouvez cloner le repo git, faire les modifications sur votre branche local et ensuite faire un Pull Request sur la branche test ou main. Merci d'utiliser un Pull Request par demande. Si vous avez 2 sujet de CAL avec 2 Correction, merci de séparer les deux sujets dans deux Pull Request différents. 
+Vous pouvez fork le repo git, faire les modifications sur votre branche local et ensuite faire un Pull Request sur la branche main. Merci d'utiliser un Pull Request par demande. Si vous avez 2 sujet de CAL avec 2 Correction, merci de séparer les deux sujets dans deux Pull Request différents. 
 
 ### Pour les changements majeurs 
 
-Si vous souhaitez ajouter des modifications substentielles au site, je vous conseil de m'en informer à l'avance (afin d'eviter de travailler longement sur une feature qui pourrait ne pas être acceptée) et d'utiliser un fork puis de faire un Pull Request ensuite. 
+Si vous souhaitez ajouter des modifications substentielles au site, je vous conseil de m'en informer à l'avance (afin d'eviter de travailler longement sur une feature qui pourrait ne pas être acceptée) et d'utiliser un fork puis de faire un Pull Request ensuite. En cas de besoin, vous pouvez faire le pull request sur la branch test si les changements risquent de rendre de github-pages malfonctionant.
 
+## Licence
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
-## Contacts et Contribution
+## Contacts et Contributeurs
 
 Si vous avez des questions, des remarques ou que vous ne parvenez pas à ajouter les documents dans ce repo git, merci de me contacter par mail : gabriel.legout9@gmail.com 
